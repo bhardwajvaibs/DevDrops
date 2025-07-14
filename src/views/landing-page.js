@@ -32,8 +32,8 @@ const LandingPage = (props) => {
 
         <div className="landing-page-photo-container">
     <img
-      src="/2241025_Vaibhav_Bhardwaj.jpeg"  // Replace with your image path or URL
-      alt="Profile"
+      src="/public/2241025_Vaibhav_Bhardwaj.jpeg"  // Replace with your image path or URL
+      alt="Vaibhav Bhardwaj"
       className="circular-photo"
     />
   </div>
@@ -205,7 +205,7 @@ const LandingPage = (props) => {
                 Github
               </a>
               <a
-                href="https://www.linkedin.com/in/bhardwajvaibs/https://example.com"
+                href="https://www.linkedin.com/in/bhardwajvaibs/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="landing-page-link2"
