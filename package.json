@@ -2,10 +2,9 @@
   "name": "travel-agency",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://bhardwajvaibs.github.io/DevDrops",
   "dependencies": {
-    "@craco/craco": "^7.1.0",
-    "next": "^12.1.10",
+    "@craco/craco": "^5.9.0",
+    "next": "^15.3.5",
     "prop-types": "15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -16,9 +15,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test --env=jsdom",
-    "eject": "craco eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "craco eject"
   },
   "engines": {
     "node": ">=18.x"
@@ -36,7 +33,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^0.0.0"
   }
 }
