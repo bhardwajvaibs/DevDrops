@@ -10,7 +10,7 @@ const LandingPage = (props) => {
     <div className="landing-page-container1">
       <Helmet>
         <title>DevDrops</title>
-        <meta property="og:title" content="Travel Agency" />
+        <meta property="og:title" content="DevDrops" />
       </Helmet>
       <div className="landing-page-top-container">
         <nav data-role="Header" className="landing-page-navbar">
