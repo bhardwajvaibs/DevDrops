@@ -31,11 +31,12 @@ const LandingPage = (props) => {
           </div>
 
         <div className="landing-page-photo-container">
-    <img
-      src="/public/2241025_Vaibhav_Bhardwaj.jpeg"  // Replace with your image path or URL
-      alt="Vaibhav Bhardwaj"
-      className="circular-photo"
-    />
+    <img 
+  src={`${process.env.PUBLIC_URL}/2241025_Vaibhav_Bhardwaj.jpeg`} 
+  alt="Vaibhav Bhardwaj" 
+  className="circular-photo" 
+/>
+
   </div>
         </div>
 
@@ -68,7 +69,7 @@ const LandingPage = (props) => {
             }
              showButton={true}
              repoUrl="https://github.com/bhardwajvaibs/todo"
-  techStack={["React Native ", "Firebase", "MongoDB", "Render","Javascript"]}
+  techStack={["React Native ", "Firebase", "MongoDB", "Render","Javascript","Visual Studio Code","Android Studio"]}
              apkUrl="https://github.com/bhardwajvaibs/todo/releases/download/v1.0.0/app-release.apk"
           // rootClassName="place-cardroot-class-name"
           ></PlaceCard>
@@ -97,7 +98,7 @@ const LandingPage = (props) => {
             }
              showButton={true}
                repoUrl="https://github.com/bhardwajvaibs/Vibe"
-  techStack={["React Native ", "Firebase", "MongoDB", "Render","Javascript"]}
+  techStack={["React Native ", "Firebase", "MongoDB", "Render","Javascript", "Express.js", "Node.js","Amazon AWS ","Visual Studio Code","Android Studio"]}
           apkUrl="https://github.com/bhardwajvaibs/Vibe/releases/download/v1.0.0/app-release.apk" 
           ></PlaceCard>
           <PlaceCard
@@ -127,8 +128,8 @@ const LandingPage = (props) => {
               </Fragment>
             }
               repoUrl="https://github.com/bhardwajvaibs/cure"
-  techStack={["React Native ", "Firebase", "MongoDB", "Render","Javascript"]}
-             showButton={true}
+  techStack={["React Native ",  "MongoDB", "Render","Javascript","OpenRouter API","Express.js","Node.js","Amazon AWS "]}
+             showButton={false}
           ></PlaceCard>
          <PlaceCard
             city="Cropify"
@@ -159,20 +160,43 @@ const LandingPage = (props) => {
             }
              showButton={true}
                repoUrl="https://github.com/bhardwajvaibs/Cropify"
-  techStack={["React Native ", "Firebase", "MongoDB", "Render","Javascript"]}
+  techStack={["React Native ","Javascript","Machine Learning","TensorFlow","Android Studio","Visual Code Studio"]}
              apkUrl="https://github.com/bhardwajvaibs/Cropify/releases/download/v1.0.0/app-release.apk"
           ></PlaceCard>
          
           <PlaceCard
-            city="Upcoming ..."
+            city="Weather App"
             text={
               <Fragment>
                 <span className="landing-page-text61">
-                  Upcoming project ...
+                   <span>
+                  Stay updated with real-time weather details by simply searching for any city!
+                  </span>
+                  <br></br>
+                  <br></br>
+                  <span>
+                    🔍 Search any city to get live weather data.
+                  </span>
+                  <br></br>
+                  <span>🌡️ Temperature updates in real-time.</span>
+                  <br></br>
+                  <span>🌅 Sunrise & Sunset timings.</span>
+                  <br></br>
+                  <span>🌬️ Wind Speed and Humidity.</span>
+                    <br></br>
+                  <span>🌪️ Atmospheric Pressure info.</span>
+                  <br></br>
+                  <br></br>
+                  <span>
+                   Get accurate and instant weather insights — anytime, anywhere!
+                  </span>
                 </span>
               </Fragment>
             }
-              showButton={false}
+              showButton={true}
+              apkUrl="https://github.com/bhardwajvaibs/weatherapplication/releases/download/v1.1.0/app-release.apk"
+              techStack={["Kotlin", "OpenWeather API", "XML","Android Studio"]}
+              repoUrl="https://github.com/bhardwajvaibs/weatherapplication"
    
             rootClassName="place-cardroot-class-name1"
           ></PlaceCard>
